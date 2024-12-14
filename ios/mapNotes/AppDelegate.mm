@@ -7,11 +7,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-  [GMSServices provideAPIKey:@"AIzaSyBOTcECpCkflK97xkVAmRfhx26d8L_Qedw"];
+  [GMSServices provideAPIKey:@""];
   [FIRApp configure];
   self.moduleName = @"mapNotes";
-  // You can add your custom initial props in the dictionary below.
-  // They will be passed down to the ViewController used by React Native.
   self.initialProps = @{};
 
   return [super application:application didFinishLaunchingWithOptions:launchOptions];
